@@ -169,12 +169,16 @@ p {
   background: #F6F6F6;
   border-bottom: 2px solid #F1F1F1;
   width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
 }
 .navigation h1 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
   font-size: 4rem;
   margin-top: 1vh;
+  opacity: 1;
 }
 .navigation .navi {
   display: flex;
@@ -213,6 +217,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro .mainheader {
+  margin-top: 10vh;
 }
 .home .intro .mainheader img {
   border-radius: 5px;
