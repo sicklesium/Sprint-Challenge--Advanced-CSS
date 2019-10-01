@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive layouts only use media queries at certain breakpoints, while fully responsive websites use media queries at several breakpoints in order to accommodate a variety of devices. Adaptive layouts still use hardcoded widths for layouts, and they have quicker deployment rates (but higher breaking rates compared to responsive).
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Desktop first puts desktops first, while mobile first puts phones first. Desktop first layouts will always have the desktop built first, while the opposite is true for the mobile first layout, which codes for mobile friendly layouts first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+You can convert rem units via the power of 10 instead of the default of 16. 1rem = 10px this way.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is like CSS but extreme. It's written in a slightly different syntax language but still similar to CSS. It lets you do a lot more with CSS and then it is compiled into regular CSS for computer and easier reading.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like the parametric mixins the best. They make for a lot of different combinations but they still keep everything uniform in a way. The thing I have trouble with the most is nesting. It's difficult to see where everything goes with what, especially when going off of someone else's code. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -56,13 +66,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 

@@ -1,1 +1,42 @@
 // Navigation code here
+.navigation {
+  .flexed(space-between, center);
+  flex-direction: column;
+  height: 10vh;
+  background: @nav-bg;
+  border-bottom: 2px solid @nav-border;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
+
+  h1 {
+    font-family: 'Russo One', sans-serif;
+    color: @header-font-color;
+    font-size: 4rem;
+    margin-top: 1vh;
+    opacity: 1;
+  }
+
+  .navi {
+    .flexed(space-between, space-between);
+    width: 25%;
+
+    @media @phone {
+      width: 75%;
+    }
+
+    a {
+      padding-bottom: 1%;
+      text-decoration: none;
+      color: @nav-font;
+      font-size: 1.6rem;
+      transition: all 500ms ease-in-out;
+      font-weight: bold;
+
+      &:hover {
+        color: lighten(@nav-font, 10%);
+      }
+    }
+  }
+}//navigation
